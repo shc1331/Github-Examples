@@ -1,4 +1,4 @@
-name: Multi-event test
+name: Multi-event test final
 
 on:
   push:
