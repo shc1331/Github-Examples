@@ -3,7 +3,7 @@ name: Schedule test
 on:
   schedule:
     - cron: '*/2 * * * *'
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   hello_world:
