@@ -12,7 +12,4 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
       - name: Run a script
-        run: echo "Event of name: ${{ github.event_name }}"
-      - name: Run a script
-        run: echo "Event of type: ${{ github.event.action }}"
-
+        run: echo '"Event of name: $GITHUB_EVENT_NAME"'
