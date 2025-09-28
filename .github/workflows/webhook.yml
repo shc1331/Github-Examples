@@ -5,7 +5,6 @@ on:
     types:
       - webhook
 
-
 jobs:
   respond-to-dispatch:
     runs-on: ubuntu-latest
